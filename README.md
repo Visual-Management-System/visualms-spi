@@ -45,6 +45,8 @@ the debt. Build it after `install` here: `./mvnw -o -f examples/kpi/pom.xml pack
 
 ## Changes
 
+- **1.4.0** — the building's gross area: `BuildingInfo.grossArea` (GBA, m², as entered on the building's card; null when
+  not entered), the older constructor kept; the core's raw value `gross_area` and the metric `occupancy.gba`.
 - **1.3.0** — ready reports: `ReportTemplate` (code, title, version, scope, widgets of catalog metrics) and
   `VisualmsPlugin.reportTemplates()`.
 - **1.2.0** — data for portfolio KPIs:
