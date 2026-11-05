@@ -6,7 +6,7 @@
 
     <groupId>ru.visualms</groupId>
     <artifactId>visualms-spi</artifactId>
-    <version>1.3.0-SNAPSHOT</version>
+    <version>1.4.0-SNAPSHOT</version>
     <name>visualms-spi</name>
     <description>Contracts for visualms plugins: metrics, raw values, report data, widget types. No dependencies.</description>
 
